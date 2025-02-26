@@ -56,6 +56,15 @@ body {
   }
   
   .nav-links a:hover {
+    /* color: #0066ff; */
+    color: #EE4266;
+  }
+
+  b {
+    color: #EE4266;
+  }
+
+  .feature-subtitle-bold {
     color: #0066ff;
   }
   

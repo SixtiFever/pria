@@ -30,6 +30,7 @@ const LandingPage: React.FC = () => {
             <h2>Pria</h2>
         </div>
         <ul className="nav-links">
+        <li><a href="#howitworks">How it works</a></li>
           <li><a href="#features">Features</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -43,7 +44,7 @@ const LandingPage: React.FC = () => {
                 {/* <h2>Project Management. Reimagined.</h2> */}
                 {/* <p>We transform work statements into end-to-end project plans using Machine Learning.</p> */}
                 {/* <p>Convert work statements into project workflows, in one click.</p> */}
-                    <p>From work statements to workflows, in one click.</p>
+                    <p>Convert work statements into project plans - instantly and effortlessly.</p>
                 </div>
                 <div className="email-capture" style={{ width: '100%'}}>
                     <input
@@ -67,29 +68,30 @@ const LandingPage: React.FC = () => {
             </div>
         </div>
       </header>
-      <section id="features" className="features-section">
+      <section id="howitworks" className="features-section">
         <h2>How it works</h2>
-        <p>Pria uses <b style={{ color: '#0066ff' }}>Document Extraction AI</b> to automate the creation of project workflows</p>
+        <p>Pria uses <b className="feature-subtitle-bold">Document Extraction AI</b> to automate the creation of project workflows</p>
         <div className="features">
           <div className="feature-card">
             <MdCloudUpload size={100} color="#EE4266" />
             <h4>Upload & Initiate</h4>
-            <p>Upload your Statement of Work (SOW) to Pria with ease. This kicks off the automated extraction process, setting the stage for seamless project setup.</p>
+            <p>Once the client engagement proposal is finalized, upload the signed work statement to Pria - kicking off the <b>automated project planning</b> process</p>
           </div>
           <div className="feature-card">
             <MdAutoAwesome size={100} color="#EE4266" />
             <h4>Smart Extraction</h4>
-            <p>Pria’s AI-powered machine learning scans and processes the document, extracting key details like deliverables, timelines, and stakeholders—eliminating manual effort.</p>
+            <p>Pria’s <b>AI-powered document extraction model</b> scans and processes the work statement, extracting key details like phases, deliverables and timelines — eliminating manual effort.</p>
           </div>
           <div className="feature-card">
             <MdRocketLaunch size={100} color="#EE4266" />
             <h4>Workflow Automation</h4>
-            <p>Based on the extracted insights, Pria auto-generates a structured project workflow, giving you a clear, end-to-end view of your project’s execution plan.</p>
+            <p>Based on the extracted information, Pria <b>auto-generates</b> a structured project workflow, giving you a clear, end-to-end view of your project’s execution plan.</p>
           </div>
         </div>
       </section>
       <section id="features" className="features-section" style={{ backgroundColor: 'white' }}>
         <h2>Key Features</h2>
+        <p><b className="feature-subtitle-bold">Automated</b> project setup - <b className="feature-subtitle-bold">Simple</b> progress tracking - <b className="feature-subtitle-bold">Centralised</b> client management.</p>
         <div className="features">
           <div className="feature-card">
             <FaRobot size={100} color="#EE4266" />
@@ -114,10 +116,10 @@ const LandingPage: React.FC = () => {
       </section> */}
       <section id="contact" className="contact-section">
         <h3>Get in Touch</h3>
-        <p>Want to learn more? Contact us at <a href="mailto:info@technova.com">info@technova.com</a></p>
+        <p>Want to learn more? Contact us at <a href="mailto:info@technova.com">placeholder@email.com</a></p>
       </section>
       <footer className="footer">
-        <p>&copy; 2025 TechNova. All Rights Reserved.</p>
+        <p>&copy; 2025 Pria. All Rights Reserved.</p>
       </footer>
     </div>
   );
