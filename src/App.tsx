@@ -5,6 +5,8 @@ import { PiTreeStructure, PiTreeStructureFill } from "react-icons/pi";
 import { MdRocketLaunch, MdAutoAwesome, MdCloudUpload, MdSpaceDashboard } from "react-icons/md";
 import { FaRobot } from "react-icons/fa6";
 import { useMediaQuery } from "react-responsive";
+import { FIRESTORE } from '../firebaseConfig'
+import { collection, doc, runTransaction } from "firebase/firestore";
 
 const LandingPage: React.FC = () => {
 
@@ -18,6 +20,13 @@ const LandingPage: React.FC = () => {
       // Here you would typically send the email to your backend or email service
       console.log("Email submitted:", email);
       // Reset the email input after submission
+
+      runTransaction(FIRESTORE, async (transaction) => {
+        const colRef = collection(FIRESTORE, 'emails');
+        const docRef = doc(colRef, email);
+        transaction.set(docRef, {'email': email})
+      })
+
       setEmail("");
       alert("Thank you for your interest! We'll be in touch soon.");
     } else {
