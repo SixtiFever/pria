@@ -45,12 +45,9 @@ const LandingPage: React.FC = () => {
           <header className="hero-section" style={{ height: window.innerHeight * 0.7 }}>
             <div className="hero-content-container">
                 <div className="hero-content" style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', alignItems: 'start' }}>
-                    <div className="text" style={{ textAlign: 'left', backgroundColor: 'blue' }} >
+                    <div className="text" style={{ textAlign: 'left' }} >
                         <h2>AI-Driven Project Management</h2>
-                    {/* <h2>Project Management. Reimagined.</h2> */}
-                    {/* <p>We transform work statements into end-to-end project plans using Machine Learning.</p> */}
-                    {/* <p>Convert work statements into project workflows, in one click.</p> */}
-                        <p style={{ textAlign: 'left', backgroundColor: 'red' }}>Convert work statements into project plans - instantly and effortlessly.</p>
+                        <p style={{ textAlign: 'left' }}>Convert work statements into project plans - instantly and effortlessly.</p>
                     </div>
                     <div className="email-capture" style={{ width: '100%'}}>
                         <input
