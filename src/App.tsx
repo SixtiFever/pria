@@ -10,9 +10,6 @@ const LandingPage: React.FC = () => {
 
     const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 })
     const isBigScreen = useMediaQuery({ minWidth: 1824 })
-    const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 })
-    const isPortrait = useMediaQuery({ orientation: 'portrait' })
-    const isRetina = useMediaQuery({ minResolution: '2dppx' })
     const [email, setEmail] = useState("");
 
   const handleEmailSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
