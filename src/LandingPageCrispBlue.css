@@ -261,3 +261,94 @@ body {
     border-bottom-left-radius: 50px;
     border: solid 1px black;
 }
+
+
+/* mobile design */
+
+.landing-container-sml {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar-sml {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container-sml {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0066ff;
+    color: white;
+}
+
+.hero-section-sml {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+}
+
+.status-label-sml {
+    background-color: black;
+    height: 35px; /* You can adjust this if necessary */
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;  /* Optional: added padding to ensure better alignment and spacing */
+    margin-top: 15px;
+    color: white;
+}
+
+.image-tag-sml {
+    width: 100%;
+    height: auto;
+}
+
+
+.features-section-sml {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.083);
+}
+
+.features-sml {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-title-container-sml {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.feature-title-container-sml h3 {
+    margin-left: 15px;
+}
+
+.feature-card-sml {
+    margin-top: 10px;
+    background: rgba(0, 102, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
