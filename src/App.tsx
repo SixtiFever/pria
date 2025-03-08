@@ -115,10 +115,10 @@ const LandingPage: React.FC = () => {
           </section>
           <section id="contact" className="contact-section">
             <h3>Get in Touch</h3>
-            <p>Want to learn more? Contact us at <a href="mailto:info@technova.com">placeholder@email.com</a></p>
+            <p>Want to learn more? Contact us at <a href="mailto:hello@getpria.com">hello@getpria.com</a></p>
           </section>
           <footer className="footer">
-            <p>&copy; 2025 Pria. All Rights Reserved.</p>
+            <p>&copy; 2025 Pria Software. All Rights Reserved.</p>
           </footer>
         </div>
       );
@@ -214,7 +214,13 @@ const LandingPage: React.FC = () => {
                     </div>
                     </div>
                 </section>
-
+                <section id="contact" className="contact-section">
+                    <h3>Get in Touch</h3>
+                    <p>Want to learn more? Contact us at <a href="mailto:hello@getpria.com">hello@getpria.com</a></p>
+                </section>
+                <footer className="footer">
+                    <p>&copy; 2025 Pria Software. All Rights Reserved.</p>
+                </footer>
             </div>
         )
     }
