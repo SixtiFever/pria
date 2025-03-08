@@ -14,14 +14,14 @@ const LandingPage: React.FC = () => {
 
   const handleEmailSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    if (email) {
+    if (email && email.includes('@')) {
       // Here you would typically send the email to your backend or email service
       console.log("Email submitted:", email);
       // Reset the email input after submission
       setEmail("");
       alert("Thank you for your interest! We'll be in touch soon.");
     } else {
-      alert("Please enter your email address.");
+      alert("Oops! Is the email address correct?");
     }
   };
 
