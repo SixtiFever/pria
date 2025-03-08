@@ -44,8 +44,8 @@ const LandingPage: React.FC = () => {
           </nav>
           <header className="hero-section" style={{ height: window.innerHeight * 0.7 }}>
             <div className="hero-content-container">
-                <div className="hero-content" style={{ textAlign: 'left' }}>
-                    <div className="text" style={{ textAlign: 'left' }} >
+                <div className="hero-content" style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', alignItems: 'start' }}>
+                    <div className="text" style={{ textAlign: 'left', backgroundColor: 'blue' }} >
                         <h2>AI-Driven Project Management</h2>
                     {/* <h2>Project Management. Reimagined.</h2> */}
                     {/* <p>We transform work statements into end-to-end project plans using Machine Learning.</p> */}
