@@ -50,7 +50,7 @@ const LandingPage: React.FC = () => {
                     {/* <h2>Project Management. Reimagined.</h2> */}
                     {/* <p>We transform work statements into end-to-end project plans using Machine Learning.</p> */}
                     {/* <p>Convert work statements into project workflows, in one click.</p> */}
-                        <p>Convert work statements into project plans - instantly and effortlessly.</p>
+                        <p style={{ textAlign: 'left', backgroundColor: 'red' }}>Convert work statements into project plans - instantly and effortlessly.</p>
                     </div>
                     <div className="email-capture" style={{ width: '100%'}}>
                         <input
