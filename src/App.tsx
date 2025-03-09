@@ -82,7 +82,7 @@ const LandingPage: React.FC = () => {
           </header>
           <section id="howitworks" className="features-section">
             <h2>How it works</h2>
-            <p>Pria uses <b className="feature-subtitle-bold">Document Extraction AI</b> to automate the creation of project workflows</p>
+            <p>Pria uses <b className="feature-subtitle-bold">Document-based AI</b> to automate the creation of project workflows</p>
             <div className="features">
               <div className="feature-card">
                 <MdCloudUpload size={100} color="#EE4266" />
@@ -92,7 +92,7 @@ const LandingPage: React.FC = () => {
               <div className="feature-card">
                 <MdAutoAwesome size={100} color="#EE4266" />
                 <h4>Smart Extraction</h4>
-                <p>Pria’s <b>AI-powered document extraction model</b> scans and processes the work statement, extracting key details like phases, deliverables and timelines — eliminating manual effort.</p>
+                <p>Pria’s <b>purpose built Machine Learning model</b> scans and processes the work statement, extracting key details like phases, deliverables and timelines — eliminating manual effort.</p>
               </div>
               <div className="feature-card">
                 <MdRocketLaunch size={100} color="#EE4266" />
@@ -108,17 +108,17 @@ const LandingPage: React.FC = () => {
               <div className="feature-card">
                 <FaRobot size={100} color="#EE4266" />
                 <h4>AI-Powered</h4>
-                <p>Pria’s Document Extraction AI instantly transforms Statements of Work into structured project workflows—eliminating manual setup so your team can focus on high-value tasks.</p>
+                <p>Pria’s <b>tailored Machine Learning model</b> instantly transforms Statements of Work into structured project workflows—eliminating manual setup so your team can focus on high-value tasks.</p>
               </div>
               <div className="feature-card">
                 <PiTreeStructureFill size={100} color="#EE4266" />
                 <h4>Progress Tracking</h4>
-                <p>Visualize your projects as Project Trees - a chronological, easy-to-read structure that simplifies tracking, making it effortless to manage and interpret project status at a glance.</p>
+                <p>Visualize your projects as <b>Project Trees</b> - a chronological, easy-to-read structure that simplifies tracking, making it effortless to manage and interpret project status at a glance.</p>
               </div>
               <div className="feature-card">
                 <MdSpaceDashboard size={100} color="#EE4266" />
                 <h4>Client Insight Dashboard</h4>
-                <p>Access everything about your clients—past projects, current work, and real-time updates—all in one place, ensuring better client management and stronger relationships.</p>
+                <p>Access everything about your clients — past projects, current work, and <b>real-time updates—all in one place</b>, ensuring better client management and stronger relationships.</p>
               </div>
             </div>
           </section>
@@ -153,6 +153,7 @@ const LandingPage: React.FC = () => {
                             </div>
                             <div className="email-capture" style={{ width: '100%'}}>
                                 <input
+                                    style={{backgroundColor: 'white'}}
                                     type="email"
                                     placeholder="Enter your email"
                                     value={email}
@@ -170,7 +171,7 @@ const LandingPage: React.FC = () => {
 
                 <section id="howitworks" className="features-section-sml">
                     <h2>How it works</h2>
-                    <p>Pria uses <b className="feature-subtitle-bold">Document Extraction AI</b> to automate the creation of project workflows</p>
+                    <p>Pria uses <b className="feature-subtitle-bold">Document-based AI</b> to automate the creation of project workflows</p>
                     <div className="features-sml">
                     <div className="feature-card-sml">
                         <div className="feature-title-container-sml">
@@ -184,7 +185,7 @@ const LandingPage: React.FC = () => {
                             <MdAutoAwesome size={40} color="#EE4266" />
                             <h3>Smart Extraction</h3>
                         </div>
-                        <p>Pria’s <b>AI-powered document extraction model</b> scans and processes the work statement, extracting key details like phases, deliverables and timelines — eliminating manual effort.</p>
+                        <p>Pria’s <b>purpose built Machine Learning model</b> scans and processes the work statement, extracting key details like phases, deliverables and timelines — eliminating manual effort.</p>
                     </div>
                     <div className="feature-card-sml">
                         <div className="feature-title-container-sml">
@@ -205,21 +206,21 @@ const LandingPage: React.FC = () => {
                             <FaRobot size={40} color="#EE4266" />
                             <h3>AI-Powered</h3>
                         </div>
-                        <p>Pria’s Document Extraction AI instantly transforms Statements of Work into structured project workflows—eliminating manual setup so your team can focus on high-value tasks.</p>
+                        <p>Pria’s <b>tailored Machine Learning model</b> instantly transforms Statements of Work into structured project workflows—eliminating manual setup so your team can focus on high-value tasks.</p>
                     </div>
                     <div className="feature-card-sml">
                         <div className="feature-title-container-sml">
                             <PiTreeStructureFill size={40} color="#EE4266" />
                             <h3>Progress Tracking</h3>
                         </div>
-                        <p>Visualize your projects as Project Trees - a chronological, easy-to-read structure that simplifies tracking, making it effortless to manage and interpret project status at a glance.</p>
+                        <p>Visualize your projects as <b>Project Trees</b> - a chronological, easy-to-read structure that simplifies tracking, making it effortless to manage and interpret project status at a glance.</p>
                     </div>
                     <div className="feature-card-sml">
                         <div className="feature-title-container-sml">
                             <MdSpaceDashboard size={40} color="#EE4266" />
                             <h3>Client Insight Dashboard</h3>
                         </div>
-                        <p>Access everything about your clients—past projects, current work, and real-time updates—all in one place, ensuring better client management and stronger relationships.</p>
+                        <p>Access everything about your clients—past projects, current work, and <b>real-time updates—all in one place</b>, ensuring better client management and stronger relationships.</p>
                     </div>
                     </div>
                 </section>
