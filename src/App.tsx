@@ -226,7 +226,7 @@ const LandingPage: React.FC = () => {
                     </div>
                     </div>
                 </section>
-                <section id="contact" className="contact-section">
+                <section id="contact" className="contact-section" style={{ backgroundColor: 'white' }}>
                     <h3>Get in Touch</h3>
                     <p>Want to learn more? Contact us at <a href="mailto:hello@getpria.com">hello@getpria.com</a></p>
                 </section>
